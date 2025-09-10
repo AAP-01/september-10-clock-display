@@ -23,3 +23,13 @@ Everything else could be pretty much the same.
 
 
 Note: This project does not implement adequate handling of errors.
+
+Lab 3
+
+21. calling getTime on a ClockDisplay constructor shows "00;00". this is because time hasn't 
+started today
+22. displayString on the inspector window changes the time to the one i input in the setTime 
+method
+23. i would have to call timeTick 60 times to reach 01:00 since each call corresponds to a 
+minute
+24. 
