@@ -46,7 +46,8 @@ automatically done by the program
     public void print(String filename,boolean doubleSided)
     public int getStatus(int delay)
     
-    public  public return getStatus
+    public 
+    public return getStatus
 
 29. in chapter 1, the constructor Picture creates:
     wall = new Square();
@@ -54,7 +55,7 @@ automatically done by the program
     roof = new Triangle();  
     sun = new Circle();
  
-30. these are external method calls of the method draw for triangle
+30. these are external method calls of the method draw for Triangle
     roof.changeSize(60, 180);
     roof.moveHorizontal(20);
     roof.moveVertical(-60);
@@ -77,3 +78,6 @@ automatically done by the program
 
 34. (n%5) can lead to results: 0, 1, 2, 3, and 4. if the n is 5 or past that number, it'll 
 return 0
+35. x
+36. x
+37. x
