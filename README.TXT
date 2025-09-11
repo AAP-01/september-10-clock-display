@@ -60,7 +60,13 @@ automatically done by the program
     roof.moveVertical(-60);
     roof.makeVisible();
     
-31. the Picture class does not have internal calls
+31. the Picture class has internal calls:
+    wall = new Square();
+    window = new Square();
+    roof = new Triangle();  
+    sun = new Circle();
+    drawn = false;
+
 32. (8%3) returns 2 since 2 is the remainder if you divide 8 with 3 and not include decimals
 33. (3%1) returns 0
     (3%8) returns 3
