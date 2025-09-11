@@ -32,4 +32,11 @@ started today
 method
 23. i would have to call timeTick 60 times to reach 01:00 since each call corresponds to a 
 minute
-24. 
+24. NumberDisplay digit
+    digit = new NumberDisplay(10);
+25. Rectanle window;
+    window = new Rectangle(int length,int width)
+26. public ClockDisplay(int hour, int minute). this constructor generates a time of the day based 
+on what the user inputs in the parameters
+27. 
+    
