@@ -75,4 +75,5 @@ automatically done by the program
     (-8%3) returns -2
     (-3%8) returns -3
 
-34. (n%5) can lead to results like 
+34. (n%5) can lead to results: 0, 1, 2, 3, and 4. if the n is 5 or past that number, it'll 
+return 0
