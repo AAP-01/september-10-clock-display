@@ -38,5 +38,35 @@ minute
     window = new Rectangle(int length,int width)
 26. public ClockDisplay(int hour, int minute). this constructor generates a time of the day based 
 on what the user inputs in the parameters
-27. 
+27. public ClockDisplay() and public ClockDisplay(int hour, int minute) are constructors in the way 
+they lack a data type and botth initiate an object, but only the latter has parameters. updateDisplay 
+cannot be called because the user isn't meant to update the display ("00:00"), which is instead 
+automatically done by the program
+28. Printer p1;
+    public void print(String filename,boolean doubleSided)
+    public int getStatus(int delay)
     
+    public  public return getStatus
+
+29. in chapter 1, the constructor Picture creates:
+    wall = new Square();
+    window = new Square();
+    roof = new Triangle();  
+    sun = new Circle();
+ 
+30. these are external method calls of the method draw for triangle
+    roof.changeSize(60, 180);
+    roof.moveHorizontal(20);
+    roof.moveVertical(-60);
+    roof.makeVisible();
+    
+31. the Picture class does not have internal calls
+32. (8%3) returns 2 since 2 is the remainder if you divide 8 with 3 and not include decimals
+33. (3%1) returns 0
+    (3%8) returns 3
+    (5%9) returns 5
+    (5%-9) returns 5
+    (-8%3) returns -2
+    (-3%8) returns -3
+
+34. (n%5) can lead to results like 
